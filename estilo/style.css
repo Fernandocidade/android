@@ -23,11 +23,14 @@
     --fonte-padrao: Arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'bebas Neue' , cursive;
     --fonte-android: 'Android', cursive;
+}
 
-    
+* {
+    margin: 0px;
+    padding: 0px;
 
+}
 
- }
 
 body {
     background-color: var(--cor0);
@@ -54,7 +57,12 @@ nav {
 
 } 
 
-main {
+main { 
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
     background-color: white;
 
 
@@ -68,6 +76,20 @@ main h1 {
 main h2 {
     font-family: var(--fonte-android);
 } 
+
+main img {
+    width: 100%;
+
+
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+
+
+}
 
 footer {
     background-color: var(--cor5);
